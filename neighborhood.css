@@ -13,7 +13,7 @@
 
 body {
   color: #043049;
-  font-size: 26px;
+  font-size: 2em;
   line-height: 1.4;
   color: #606161;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -32,15 +32,14 @@ a {
 }
 
 .container-fluid {
- /* width: 1100px;*/
   margin: 0 auto;
   text-align: center;
 }
 
 .logo {
-  font-size: 75px;
-  font-weight: 800;
+  font-size: 2em;
   color: green;
+  font-weight: 900;
 }
 
 .neighborhood-header {
@@ -61,12 +60,13 @@ a {
 
 p{
   color: white;
+  font-size: 1.1em;
 }
 
 .neighborhood-header nav ul li {
   display: inline-block;
   margin: 0 0 0 20px;
-  font-size: 25px;
+  font-size: .7em;
 }
 
 .neighborhood-header nav ul li a {
@@ -93,10 +93,8 @@ p{
 .floater{
   font-size: .5em;
   background-color: gray;
-  /*box-shadow: 0 0 5px;*/
   padding: 4%;
   width: 10%;
-  /*background: rgba(255,255,255,.8);*/
   float: right;
   
 }
@@ -230,133 +228,6 @@ body {font-family: Verdana,sans-serif;margin:0}
   background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-
-
-/** {
- box-sizing: border-box;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-body {
-  color: #043049;
-  font-size: 26px;
-  line-height: 1.4;
-  color: #606161;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  background: #f0efef;
-}
-
-a {
-  text-decoration: none;
-}
-
-.image{                         
-  background: url("home.jpg") no-repeat center;
-  width: 100%;
-  background-size: cover; 
-}
-
-.container {
-  width: 1100px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.logo {
-  font-size: 75px;
-  font-weight: 800;
-  color: green;
-}
-
-.neighborhood-header {
-  background: #033048;
-  padding: 25px 0;
-  overflow: hidden;
-}
-
-.neighborhood .logo {
-  color: white;
-  float: left;
-}
-
-.neighborhood-header nav {
-  text-align: center;
-
-}
-
-p{
-  color: white;
-}
-
-.neighborhood-header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 20px;
-  font-size: 25px;
-}
-
-.neighborhood-header nav ul li a {
-  color: green;
-}
-
-.posts {
-  width: 700px;
-  display: inline-block;
-  margin-right: 20px;
-  vertical-align: top;
-}
-.neighborhood-category-sidebar {
-  width: 240px;
-  display: inline-block;
-  vertical-align: top;
-}
-.post {
-  border-bottom: 1px solid #043049;
-  padding-bottom: 40px;
-  margin-bottom: 40px;
-}
-
-.floater{
-  font-size: .5em;
-  background-color: gray;
-  /*box-shadow: 0 0 5px;*/
-  padding: 4%;
-  width: 10%;
-  /*background: rgba(255,255,255,.8);*/
-  float: right;
-  
-}
 
 .button {
   border-radius: 5px;
@@ -404,7 +275,7 @@ p{
 }
 
 .neighborhood-site-footer p {
-  font-size: 18px;
+  font-size: 1em;
   color: #fff;
   font-weight: 600;
 }
@@ -413,4 +284,11 @@ p{
   display: none;
 }*/
 
-
+/*@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   /* .logo h1{
+     font-size: 1em;
+    }
+    ul{
+      font-size: .5em;
+    }*/
